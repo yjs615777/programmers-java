@@ -6,8 +6,8 @@ import programmers.level0.MakeItL;
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args){
-        MakeItL mil  =new MakeItL();
-        System.out.println(mil.solution("abcedfghijklmno"));
+//        MakeItL mil  =new MakeItL();
+//        System.out.println(mil.solution("abcedfghijklmno"));
 
     }
 }
