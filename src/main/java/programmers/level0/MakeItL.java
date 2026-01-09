@@ -12,8 +12,8 @@ public class MakeItL {
         for (char c : myString.toCharArray()) { //**toCharArray** 문자열을 “글자 단위”로 쪼개고 Array가됨
             if (c < 'l') sb.append('l');
             else sb.append(c);
-            /*l보다 작은 알파벳이라면 l로 append 아니라면 원래 char로 append
-              ex)입력:abclmno 출력:llllmno*/
+            /* l보다 작은 알파벳이라면 l로 append 아니라면 원래 char로 append
+              ex)입력:abclmno 출력:llllmno */
         }
         return sb.toString();
     }
