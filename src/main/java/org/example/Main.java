@@ -1,5 +1,6 @@
 package org.example;
 
+import programmers.level0.ConcatenateStrings;
 import programmers.level0.InterleaveTwoStrings;
 import programmers.level0.MakeItL;
 
@@ -9,9 +10,9 @@ public class Main {
     public static void main(String[] args){
 //        MakeItL mil  =new MakeItL();
 //        System.out.println(mil.solution("abcedfghijklmno"));
-        InterleaveTwoStrings ilt = new InterleaveTwoStrings();
-
-        System.out.println(ilt.solution("aaa","bbb"));
+//        InterleaveTwoStrings ilt = new InterleaveTwoStrings();
+//
+//        System.out.println(ilt.solution("aaa","bbb"));
 
     }
 }
