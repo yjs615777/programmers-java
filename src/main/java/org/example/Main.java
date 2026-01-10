@@ -1,5 +1,6 @@
 package org.example;
 
+import programmers.level0.InterleaveTwoStrings;
 import programmers.level0.MakeItL;
 
 //TIP 코드를 <b>실행</b>하려면 <shortcut actionId="Run"/>을(를) 누르거나
@@ -8,6 +9,9 @@ public class Main {
     public static void main(String[] args){
 //        MakeItL mil  =new MakeItL();
 //        System.out.println(mil.solution("abcedfghijklmno"));
+        InterleaveTwoStrings ilt = new InterleaveTwoStrings();
+
+        System.out.println(ilt.solution("aaa","bbb"));
 
     }
 }
